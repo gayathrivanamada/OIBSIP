@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(2, 2, 96);
+    color: white;
+    font-family: 'poppins', sans-serif;
+    scroll-margin: none;
+    overflow: hidden;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 34);
+    color: white;
+    border: 30px;
+    border-radius: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstsection>div {
+    width: 40%;
+
+}
+
+.leftsection {
+
+    width: 34px;
+    font-size: 2rem;
+    margin: 100px 0;
+}
+
+.rightsection img {
+    width: 120%;
+
+}
+.firstsection a:hover{
+    background-color: pink;
+
+}
+.firstsection a:active{
+    background-color:brown;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.para1 {
+    font-size: 14px;
+    
+}
+
+.para {
+    font-size: 30px;
+    color: white;
+}
+
+.pink {
+    color: brown;
+}
+
+.btn {
+    color: rgb(246, 0, 230);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 60px;
+    border: 5px solid rgb(65, 2, 123);
+    background-color: rgb(65, 2, 123);
+    border-radius: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display:inline-block;
+}
