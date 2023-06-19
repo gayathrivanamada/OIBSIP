@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bgg.jpg');
+    color: white;
+}
+
+.left {
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: inline-block;
+    /* border: 1px solid yellow; */
+}
+
+.left img {
+    top: 0px;
+    width: 100px;
+    height: 80px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    /* border: 2px solid blue; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    color: white;
+    /* border: 1px solid palevioletred; */
+}
+
+.btn {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px 9px;
+    /* background-color: black; */
+    /* color:#ffffff; */
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    display: block;
+    width: 510px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container select {
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+}
+
+.container select {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.about {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 510px;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.box a:hover,
+.box a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.addr {
+    color: black;
+ }
+.details{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}  
