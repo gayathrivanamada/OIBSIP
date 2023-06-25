@@ -1,0 +1,60 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    background-color: #000000;
+ }
+.heading{
+  font-style:italic;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 70px;
+ color:white;
+}
+.container{
+    background-color: black;
+    color:orange;
+  }
+.center {
+    text-align: center;
+  }
+  
+  .center img {
+  
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 7px 7px 7px 7px white;
+    margin-top: 100px;
+  }
+  .icon {
+    display: inline-block;
+    width: 20px; /* Adjust the width as needed */
+  }
+
+  /* Remove default list styles */
+  ul {
+    list-style-type: none;
+    padding: 20px;
+    margin-left:170px;
+    font-size: 30px;
+  }
+
+  /* Add margin to list items */
+  li {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+  }
+  .whitee{
+    color:white;
+  }
+  .para{
+    color:white;
+    font-size:30px;
+    font-family: "cursive";
+    margin-left: 150px;
+    font-style: italic;
+
+  }
